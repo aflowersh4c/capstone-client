@@ -128,7 +128,7 @@ export default class Sports extends Component {
     };
   }
   componentDidMount() {
-    axios.get("https://kirk-api.onrender.com/sports")
+    axios.get("https://backend-gafa.onrender.com/sports")
     .then(response => {
       this.setState({
         sports: response.data,
